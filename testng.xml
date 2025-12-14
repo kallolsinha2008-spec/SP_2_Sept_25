@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+<!--    <parameter name="username" value="standard_user"/>-->
+<!--    <parameter name="password" value="secret_sauce"/>-->
+<!--    <parameter name="browserName" value="edge"/>-->
+    <!--<groups>
+        <run>
+            <include name="smoke"/>
+        </run>
+    </groups>-->
+    <listeners>
+        <listener class-name="testng.listener.IAnnotation"/>
+    </listeners>
+    <test verbose="10" preserve-order="true" name="C:/Users/Rakesh/IdeaProjects/SP_2_Sept_25">
+        <classes>
+            <class name="testng.basicsoftestng.PriorityExample"/>
+        </classes>
+    </test>
+</suite>
