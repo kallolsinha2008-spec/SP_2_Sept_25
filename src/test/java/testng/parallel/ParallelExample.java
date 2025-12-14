@@ -17,7 +17,7 @@ public class ParallelExample {
     public void t2() {
         WebDriver driver = new ChromeDriver();
         driver.get("https://store.steampowered.com/");
-	System.out.println("Hello All");
+	    System.out.println("Hello All");
     }
 
     @Test

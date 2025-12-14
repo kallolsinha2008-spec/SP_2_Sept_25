@@ -10,6 +10,7 @@ import static testng.basicsoftestng.PreRequisiteAnnotation.driver;
 
 public class HardAssertExample {
 
+    //These are the changes for Git
     @Test
     public void verifyHardAssert() {
         WebDriver driver = new ChromeDriver();
